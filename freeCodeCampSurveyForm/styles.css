@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+h1, p{
+    margin: 1em auto;
+    text-align: center;
+}
+
+form{
+    width: 70vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+select{
+    margin: 10px 10px 0 0;
+    width: 100%;
+    min-height: 2em;
+    max-height: 2em;
+}
+
+input, textarea, button{
+    width: 100%;
+    background-color: #0a0a23;
+    border-image-source: linear-gradient(to bottom right, #f78ae0, #6638f0);
+    border-image-slice: 4;
+}
+input-radio, input-checkbox{
+    display:inline-block;
+
+}
+.name, .email, .number{
+    min-height: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+  }

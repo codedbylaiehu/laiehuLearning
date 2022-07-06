@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>freeCodeCamp Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 id="title">FreeCodeCamp Survey Form</h1>
+                <p id="description">
+                    Thanks for helping us improve our platform
+                </p>
+            </header>
+            <form id ="survey-form">
+                <fieldset>
+                    <label id="name-label"><input placeholder="Enter your name" id="name" type="text" required /></label>
+                    <label id="email-label"><input placeholder="Enter your email" id="email" type="email" required /></label>
+                    <label placeholder="Age" id="number-label"><input placeholder="Age" id="number" type="number" min="5" max="120" /></label>
+                    <select id="dropdown">
+                        <option> (Select Current Role) </option>
+                        <option>Student</option>
+                        <option>Full time job</option>
+                        <option>Full time learner</option>
+                        <option>Prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+                    <label><input type="radio" name="radioButtons" /> Definitely</label>
+                    <label><input type="radio" name="radioButtons" /> Maybe</label>
+                    <label><input type="radio" name="radioButtons" /> Not Sure</label>
+
+                    <label><input type="checkbox" value="1" /> Front-end Projects</label>
+                    <label><input type="checkbox" value="2" /> Back-end Projects</label>
+                    <label><input type="checkbox" value="3" /> Data Visualizaion</label>
+                    <label><input type="checkbox" value="4" /> Challenges</label>
+                    <label><input type="checkbox" value="5" /> Open Source Community</label>
+                    <label><input type="checkbox" value="6" /> Gitter help rooms</label>
+                    <label><input type="checkbox" value="7" /> Videos</label>
+                    <label><input type="checkbox" value="8" /> City Meetups</label>
+                    <label><input type="checkbox" value="9" /> Wiki</label>
+                    <label><input type="checkbox" value="10" /> Forum</label>
+                    <label><input type="checkbox" value="11" /> Additional Courses</label>
+
+                    <label>Comments or Suggestions?
+                        <textarea name="comments" rows="3" cols="30" placeholder="enter comments here"></textarea>
+                    </label>
+                    <button type="submit" value="Submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
