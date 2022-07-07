@@ -66,6 +66,7 @@ for (i = 0; i < acc.length; i++) {
 
 Smino - Smellin Like a Re-Up - Single
 00. "Smellin Like a Re-Up"
+
 2015
 
 Smino - S!Ck S!Ck S!Ck[12]
@@ -112,6 +113,8 @@ Mick Jenkins - The Healing Component[16]
 
 Saba - Bucket List Project[17]
 12. "California" (featuring Ravyn Lenae & Phoelix) (produced with Phoelix & Daoud)
+
+
 2017
 
 Ravyn Lenae - Midnight Moonlight[18]
@@ -327,3 +330,452 @@ Ravyn Lenae - Hypnos
 09. "3D" (featuring Smino) (produced with Phoelix)
 10. "Satellites" (produced with Luke Titus & Steve Lacy)
 11. "Lullabye"
+
+--------old not working code---------------------
+
+<div id="tribute-info">
+                <button class="accordion">2014-2016</button>
+                    <div class="panel">
+                        the early years
+
+                        2014
+
+                        Smino - Smellin Like a Re-Up - Single
+                        00. "Smellin Like a Re-Up"
+
+                        2015
+
+                        Smino - S!Ck S!Ck S!Ck[12]
+                        01. "Ruby Red"
+                        02. "Ballet" (featuring Bari)
+                        03. "Raw"2022
+
+                        Saba - Few Good Things
+                        08. "A Simpler Time" (featuring Mereba) (produced with Daoud & Jacob Rochester)
+                        
+                        JayBaby TheGreaty - Orange Belt
+                        07. "2 Fired Up"
+                        
+                        Ravyn Lenae - Hypnos
+                        02. "Venom"
+                        08. "Higher"
+                        09. "3D" (featuring Smino) (produced with Phoelix)
+                        10. "Satellites" (produced with Luke Titus & Steve Lacy)
+                        11. "Lullabye"
+
+                        Ravyn Lenae - Moon Shoes[13]
+                        01. "Venezuela Trains"
+                        03. "Blossom Dearie"
+                        04. "Recess"
+                        05. "Free Room"
+                        06. "Sleep Talking"
+                        08. "Everything Above"
+
+                        Monte Booker - Soulection White Label: 016
+                        01. "Flight"
+                        02. "Kolors" (featuring Smino)
+                        03. "Homealone"
+                        04. "Baby" (featuring Ravyn Lenae)
+
+                        Smino - Blkjuptr[14]
+                        01. "Blkjuptr"
+                        02. "Zoom"
+                        03. "Runnin'" (featuring Jay2)
+                        04. "Poppa" (featuring Julian Bell)
+                        05. "Oxygen"
+
+                        Smino - Ciabatta - Single
+                        00. "Ciabatta"
+
+                        2016
+
+                        Smino - Kajun - Single
+                        00. "Kajun" (featuring Jean Deaux & Phoelix)
+
+                        Ravyn Lenae - Alive - Single
+                        00. "Alive"
+
+                        Noname - Telefone[15]
+                        02. "Sunny Duet" (with theMIND) (produced with Cam O'bi)
+
+                        Mick Jenkins - The Healing Component[16]
+                        14. "Angles" (featuring Xavier Omär & Noname) (produced with Cam O'bi & THEMpeople)
+
+                        Saba - Bucket List Project[17]
+                        12. "California" (featuring Ravyn Lenae & Phoelix) (produced with Phoelix & Daoud)
+                    </div>
+                <button class="accordion">2017</button>
+                    <div class="panel">
+
+                        2017
+
+                        Ravyn Lenae - Midnight Moonlight[18]
+                        02. "Unknown"
+                        03. "Spice'" (solo or remix with Smino)
+                        04. "Hiatus (Interlude)"
+                        05. "Oxygen"
+                        06. "Sleep Talking"
+
+                        Sango - De Mim, Pra Você
+                        06. "Bem-Estar"
+
+                        Smino - Blkswn[19]
+                        01. "Wild Irish Roses"
+                        02. "Maraca"
+                        03. "Glass Flows"
+                        04. "Flea Flicka" (featuring Bari)
+                        05. "Spit Shine"
+                        06. "Netflix & Dusse"
+                        07. "Anita"
+                        08. "Lobby Kall"
+                        09. "Edgar Allen Poe'd Up" (featuring theMIND)
+                        11. "B Role"
+                        12. "Blkoscars" (featuring Jay2)
+                        14. "Long Run" (featuring Via Rosa) (produced with Phoelix)
+                        15. "Innamission"
+                        16. "Silk Pillows" (featuring Akenya) (produced with THEMpeople)
+                        17. "Ricky Millions" (featuring Drea Smith) (produced with J. Bird)
+                        18. "Amphetamine" (featuring Bari, Jean Deaux & Noname) (produced with Phoelix & J.Robb)
+
+                        Roseangelica - Butta - Single
+                        00. "Butta"
+
+                        Bari - Protein - Single
+                        00. "Butta"
+
+                        Hoosier Scott - Shade Spectrum
+                        04. "How Would I?"
+
+                        Didi Park - Neon Bandages
+                        06. "B&W Movies are Voodoo" (produced with JNTHN STEIN)
+                        08. "Method Acting"
+
+                        Zero Fatigue - Manegos - Single[20]
+                        00. "Manegos" (featuring Bari, Smino, and Jay2)
+
+                        Monte Booker - KOMPANY - Single
+                        00. "KOMPANY" (featuring Phoelix & Smino)
+                    </div>
+                <button class="accordion">2018</button>
+                    <div class="panel">
+
+                        2018
+
+                        Phoelix - TEMPO
+                        14. "Taranphoeno" (featuring Smino and Jean Deaux) (produced with Phoelix)
+
+                        KYLE - Light of Mine
+                        11. "ShipTrip"
+
+                        Smino - NØIR[21]
+                        03. "Klink"
+                        05. "Spinz"
+                        06. "Summer Salt" (featuring Bari)
+                        07. "Z4L" (featuring Bari & Jay2)
+                        08. "Merlot"
+                        09. "We Got The Biscuits"
+                        12. "Low Down Derrty Blues"
+                        13. "Fenty Sex" (featuring Dreezy)
+                        14. "Bam 2x"
+                        18. "Verizon" (produced with Da-P)
+
+                        Bari - The Prefix
+                        01. "Tortas"
+                        02. "Glacier"
+                        03. "Intrigue" (featuring Smino)
+
+                        Zara Bash - Heaven on Earth
+                        05. "Bad4Me" (featuring Ty Safari)
+                    </div>
+                <button class="accordion">2019</button>
+                    <div class="panel">
+
+                        2019
+
+                        Bari - MSTRGLSS
+                        01. "Ooze"
+                        04. "Relax"
+                        05. "Ice Cup"
+                        06. "Eya"
+                        08. "Luhbish"
+                        10. "Caress"
+                        11. "Fluid"
+                        12. "Joi"
+                        13. "Stamina"
+
+                        Ash Jetson - 814CK.HO13
+                        04. "used to."
+
+                        Monte Booker - Interstellar - Single
+                        00. "Interstellar" (featuring Bari)
+
+                        Jay2 - 4 Tha Wait
+                        01. "Are You OK?"
+                        02. "Pomegranate"
+                        04. "Dork" (featuring Smino)
+                        05. "Dropped"
+                        07. "Shoppin'"
+
+                        MFnMelo - What a Life - Single
+                        00. What a Life (featuring Saba)
+
+                        MFnMelo- Everybody Eats
+                        04. "Flow Seats"
+                        09. "Notice"
+                        10. "What a Life" (featuring Saba)
+
+                        ICECOLDBISHOP - Creep - Single
+                        00. Creep (featuring Mick Jenkins) (produced with Naz)
+
+                        Smino - High 4 Da Highladays
+                        01. "Sleigh" (featuring Monte Booker & Masego) (produced with Masego)
+                    </div>
+                <button class="accordion">2020</button>
+                    <div class="panel">
+
+                        2020
+
+                        Dreamville - Revenge of the Dreamers III: Director's Cut[22]
+                        22. "Late Night" (with Cozz and Omen featuring Buddy and Landstrip Chip)
+                        23. "Spin Move" (with Bas featuring Saba, Smino and The Hics)
+                        26. "Passcode" (with Ari Lennox featuring Buddy, Smino, Mez and Guapdad 4000) (produced with Christo)
+
+                        Ravyn Lenae - Insecure: Music From The HBO Original Series, Season 4
+                        09. "Rewind" (produced with Phoelix)
+
+                        Hansel Mac - Limbo
+                        01. "Mario" (featuring Saiki Music & Zagor)
+
+                        Smino - Madden NFL 21[23]
+                        14. "Backstage Pass" (with Monte Booker and The Drums)
+
+                        Spillage Village - Spilligion[24]
+                        06. "Judas" (with JID featuring Ari Lennox, Buddy, Chance the Rapper and Masego) (additional production from Mesita)
+
+                        Femdot - Buy One, Get One Free Vol. 1
+                        01. "Lifetime" (featuring Saba)
+
+                        Bari - Fuck It... Burn It All Down
+                        13. "One Night"
+                        15. "Heart Is Valuable"
+
+                        Plvto - Hangout 4
+                        04. "Apple"
+                        06. "Hues"
+
+                        Florence The Infinite - This Ain't That
+                        00. "This Ain't That" (featuring Bunge)
+
+                        Lord Red - Tired
+                        00. "Tired"
+                    </div>
+                <button class="accordion">2021</button>
+                    <div class="panel">
+                        <p>
+
+                        2021
+
+                        Monte Booker - Lil Sounds Tape
+                        01. "Maple"
+                        02. "Stay"
+                        03. "Feels Good"
+                        04. "Astro"
+                        05. "Shordie"
+                        06. "I Been Rollin" (produced with Phoelix)
+                        07. "Transition"
+                        08. "I Luv U All"
+                        09. "FM"
+
+                        VanJess - Homegrown[25]
+                        03. "Roses" (produced with Da-P)
+
+                        Jay2 - Send Heartss
+                        02. "As Cold As It Gets"
+
+                        Symphani Soto - Energy - Single
+                        00. "Energy"
+
+                        reggie - Ain't Gon Stop Me - Single[26]
+                        00. "Ain't Gon Stop Me" (produced with Kenny Beats)
+
+                        Felly - Everybody Loves You - Single
+                        00. "Everybody Loves You" (featuring Kota the Friend)
+
+                        Vince Staples - Vince Staples
+                        05. "Taking Trips" (produced with Kenny Beats)
+
+                        Pink Siifu - Gumbo'!
+                        15. "Voicemails Uptown" (featuring Monte Booker, Turich Benjy, Lance Skiiiwalker, JayBee Lamahj, VCR & Nelson Bandela)
+
+                        Shane Eagle - Skydream - Single
+                        00. "Skydream"
+
+                        Maxo Kream - Weight of the World
+                        07. "Don't Play With Shawty Ass" (produced with Naz)
+                        11. "Whole Lotta" (produced with Teej)
+                        16. "Believe" (featuring Don Toliver) (produced with Smino)
+
+                        Mick Jenkins - Elephant In the Room
+                        09. "Truffles" (produced with Renzell)
+
+                        </p>
+                    </div>
+                <button class="accordion">2022-present</button>
+                    <div class="panel">
+
+                        2022
+
+                        Saba - Few Good Things
+                        08. "A Simpler Time" (featuring Mereba) (produced with Daoud & Jacob Rochester)
+
+                        JayBaby TheGreaty - Orange Belt
+                        07. "2 Fired Up"
+
+                        Ravyn Lenae - Hypnos
+                        02. "Venom"
+                        08. "Higher"
+                        09. "3D" (featuring Smino) (produced with Phoelix)
+                        10. "Satellites" (produced with Luke Titus & Steve Lacy)
+                        11. "Lullabye"
+                    </div>
+
+            </div>
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: cyan;
+    color: brown;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+
+
+  <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                      acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                          panel.style.maxHeight = null;
+                        } else {
+                          panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                      });
+                    }
+                </script>
+
+
+
+
+-------------this is what works--------------------
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_animate
+
+
+<style>
+.accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+}
+
+.active, .accordion:hover {
+background-color: #ccc;
+}
+
+.panel {
+padding: 0 18px;
+background-color: white;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<h2>Animated Accordion</h2>
+<p>Click on the buttons to open the collapsible content.</p>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var panel = this.nextElementSibling;
+if (panel.style.maxHeight) {
+panel.style.maxHeight = null;
+} else {
+panel.style.maxHeight = panel.scrollHeight + "px";
+}
+});
+}
+</script>
+
+
+
+
+
+
+
+
+
+--------------code to change site fonts lol-----------------
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>

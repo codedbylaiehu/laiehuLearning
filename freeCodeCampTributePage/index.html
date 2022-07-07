@@ -47,14 +47,14 @@ compare their solutions.
                 or a div element with an id of img-div
 
         -->
-        <div id="img-div">
+        <figure id="img-div">
 
             <!--REQ 4: Within the #img-div element, 
                 you should see an img element with 
                 a corresponding id="image"
 
             -->
-            <img src="https://drive.google.com/uc?export=view&id=1GGqZTVry46z5ojpYJe0rmUF4IUSew8AN" id="image" alt="image by @mute.psd">
+            <img src="https://drive.google.com/uc?export=view&id=1fc38o1Rihs_3-1vosv_ronKEyOKdNpJh" id="image" alt="image by @mute.psd">
             
             <!--REQ 5: Within the #img-div element, 
                 you should see an element with a 
@@ -63,13 +63,18 @@ compare their solutions.
                 the image shown in #img-div
 
             -->
-            <p id="image-caption">image by <a href="">@mute.psd</a></p>
-        </div>
+            <figcaption id="image-caption">image by <a href="">@mute.psd</a></figcaption>
+        </figure>
 
     <h2>Monte Booker Release Timeline</h2>
     <p>Click on the year to see what he produced over time!</p>      
-    
-        <div> 
+        <!--REQ 6: You should see an element with 
+            a corresponding id="tribute-info", 
+            which contains textual content describing 
+            the subject of the tribute page
+
+        -->
+        <section id="tribute-info">
             <button class="accordion">2014-2016</button>
             <div class="panel">
                 <p>the early years</p>
@@ -109,8 +114,8 @@ compare their solutions.
                 <p class="titleSingle">03. "Runnin'" (featuring Jay2)</p>
                 <p class="titleSingle">04. "Poppa" (featuring Julian Bell)</p>
                 <p class="titleSingle">05. "Oxygen"</p>
-                <p class="titleAlbum"></p>Smino - Ciabatta - Single
-                <p class="titleSingle"></p>00. "Ciabatta"
+                <p class="titleAlbum">Smino - Ciabatta - Single</p>
+                <p class="titleSingle">00. "Ciabatta"</p>
                 <h3>2016</h3>
                 <p class="titleAlbum">Smino - Kajun - Single</p>
                 <p class="titleSingle">00. "Kajun" (featuring Jean Deaux & Phoelix)</p>
@@ -287,7 +292,6 @@ compare their solutions.
                 <p class="titleSingle">16. "Believe" (featuring Don Toliver) (produced with Smino)</p>
                 <p class="titleAlbum">Mick Jenkins - Elephant In the Room</p>
                 <p class="titleSingle">09. "Truffles" (produced with Renzell)</p>
-                </p>
             </div>
             <button class="accordion">2022-present</button>
             <div class="panel">
@@ -302,35 +306,41 @@ compare their solutions.
                 <p class="titleSingle">09. "3D" (featuring Smino) (produced with Phoelix)</p>
                 <p class="titleSingle">10. "Satellites" (produced with Luke Titus & Steve Lacy)</p>
                 <p class="titleSingle">11. "Lullabye"</p>
-            </div>
-        </div>          
-</body>
-
-
-
-
-                    <script>
-                    var acc = document.getElementsByClassName("accordion");
-                    var i;
-                    
-                    for (i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                    } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                    }
-                    });
-                    }
-                    </script>
-            </div>
-            </main>
-            <footer>
+                <!--You should see an a element with a 
+                    corresponding id="tribute-link", 
+                    which links to an outside site, 
+                    that contains additional information 
+                    about the subject of the tribute page. 
+                    HINT: You must give your element an 
+                    attribute of target and set it to _blank 
+                    in order for your link to open in a new tab
                 
-            </footer>   
-        </body>
+                -->
+                <p class="titleAlbum">Learn more about Monte Booker on his <a href="https://en.wikipedia.org/wiki/Monte_Booker" target="_blank">Wiki Page</a></p>
+            </div>
+        </section>          
+
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+        } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+        });
+        }
+        </script>
+        </div>
+    </main>
+    <footer>
+    </footer>   
+</body> 
         
 
 
