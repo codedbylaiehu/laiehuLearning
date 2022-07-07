@@ -1,0 +1,27 @@
+.panel > h3 {
+    font-weight: bolder;
+    font-family: 'Corben', cursive;
+    font-size: 7;
+}
+.titleAlbum {
+    font-weight: bold;
+    font-family: 'Corben', cursive;
+    font-size: 6;
+}
+
+.titleSingle {
+    font-family: 'Nobile', sans-serif;
+    font-size: 4;
+}
+h1 {
+    font-family: 'Corben', cursive;
+}
+h2 {
+    font-family: 'Nobile', sans-serif;
+}
+h1, h2 {
+    text-align: center;
+}
+body {
+    background-color: #1b0000;
+}
