@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--DOC NOTES
+
+-->
+<html>
+    <head>
+        <title>Title Here</title>
+        <link rel="stylesheet" href="styles.css" />
+            
+        <!--Importing font for that fresh look-->
+            
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Nobile&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <h1 id="title">How I wish actual recipe sites could be used</h1>
+            <h2>subtitle text here</h2>
+        </header>            
+        <main id="main">
+            <figure id="img-div">
+                <img src="src for img here" id="image" alt="image alt text">
+                <figcaption id="image-caption">image by <a href="">link to photographer etc.</a></figcaption>
+            </figure>
+<!--Accordion Recipe Panels-->
+            <div class="panel">
+                <h3>Panel Title Here</h3>
+                <p class="titleLg">Panel Contents</p>
+                <p class="titleMd">Link out to a <a href="https://en.wikipedia.org/wiki/Monte_Booker" target="_blank" id="wiki-link">Wiki Page</a></p>
+            </div>
+            <div class="panel">
+                <h3>Panel Title Here</h3>
+                <p class="titleLg">Panel Contents</p>
+                <p class="titleMd">Link out to a <a href="https://en.wikipedia.org/wiki/Monte_Booker" target="_blank" id="wiki-link">Wiki Page</a></p>
+            </div> 
+            <!--Accordion Script-->         
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+        </main>
+        <footer>
+            <h3>created by <a href="https://github.com/codedbylaiehu/laiehuLearning" target="_blank">@codedbylaiehu</a></h3>
+        </footer>   
+    </body> 
+</html>
+
+
