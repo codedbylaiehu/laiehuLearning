@@ -1,142 +1,37 @@
-body {
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    position: relative;
-    margin: 0px;
-    height: 100vh;
+*{
     box-sizing: border-box;
 }
 
-div {
-    display: block;
+body{
+
 }
 
-#header {
-    position: relative;
+.container {
+
 }
 
-#middle {
-    display: inline-table;
-    text-align: center;
-    position: relative;
-    transform: translateY(-1.7vw);
+.panel {
+
 }
 
-#gifContainer {
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    margin-top: 2em;
-    border: 7px white double;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-    animation-delay: 2.3s;
-    box-shadow: 0 0 2vw black;
+.panel h3 {
+
 }
 
-#gif {
-    margin-bottom: -0.5px;
-    display: block;
-    width: 30vw;
+.panel.active {
+
 }
 
-#sauce {
-    font-size: 1.2vw;
-    margin-top: 0.3em;
-    display: block;
-    text-decoration: none;
-    color: white;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-    animation-delay: 2.3s;
+.panel.active h3 {
+
 }
 
-a:-webkit-any-link {
-    cursor: pointer;
-}
+@media (max-width: 480px) {
+    .container {
 
-#left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#middle {
-    display: inline-table;
-    text-align: center;
-    position: relative;
-    transform: translateY(-1.7vw);
-}
-
-#right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    overflow: hidden;
-}
-
-#topLeftOverlay, #bottomLeftOverlay, #topRightOverlay, #bottomRightOverlay {
-    position: absolute;
-    width: 18vw;
-    height: 18vw;
-    background: rgba(0, 0, 0, 0);
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: "Open Sans";
-    opacity: 0;
-    transition: 0.75s;
-    pointer-events: auto;
-    text-decoration: none;
-}
-
-#topLeft, #bottomLeft {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    pointer-events: none;
-    left: -30vw;
-    position: relative;
-    opacity: 0;
-    animation: leftSlide 2s forwards;
-    animation-delay: 2.8s;
-}
-
-#topLeftFrame, #bottomLeftFrame, #topRightFrame, #bottomRightFrame {
-    width: 22vw;
-    filter: hue-rotate(0deg) saturate(0);
-    display: block;
-    z-index: 2;
-}
-
-#topLeftRecipe, #bottomLeftRecipe, #topRightRecipe, #bottomRightRecipe {
-    position: absolute;
-    width: 18vw;
-    height: 18vw;
-    display: inline;
-    object-fit: cover;
-    pointer-events: auto;
-    box-shadow: 0 0 2vw white;
-}
-
-@keyframes leftSlide {
-    100%{
-        left: 0;
     }
-    100%{
-        opacity: 1;
-    }
-}
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
+    .panel:nth-of-type(4), .panel:nth-of-type(5) {
+
     }
 }
