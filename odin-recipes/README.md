@@ -107,7 +107,7 @@ iv.
 <li>List</li>
 <li>Pancit</li>
 <li>Recipe</li>
-<li>Steps</li>
+/bin/sh: s: command not found
 <li>Here!</li>
 </ol>
 
