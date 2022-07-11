@@ -54,12 +54,11 @@ margin: 5px;
 padding: 0 40px;
 cursor: pointer;
 }
-
 a {
     text-decoration: none;
 }
 
-.breadcrumb__item:hover , a:hover{
+.breadcrumb__item:hover a:hover{
 background: #990000;
 color: #FFF;
 }
@@ -104,6 +103,7 @@ padding: 0 20px;
 
 }
 
+
 body {
 	min-height: 100vh;
 	display: grid;
@@ -144,8 +144,8 @@ p {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	width: 80vmin;
-	height: 20em;
+    width: 90vmin;
+	height: 30em;
     border: 8px solid;
 	border-image: linear-gradient(-50deg, black, #4a0c0c, #c74747, #fba6a6, #c74747, #4a0c0c, black) 1;
 	margin: 2rem auto;

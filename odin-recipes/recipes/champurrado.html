@@ -1,37 +1,77 @@
-<!--Iteration 4: Add More Recipes------------------
-Add two more recipes with identical page structures 
-to the recipe page you’ve already created.
-
-Don’t forget to link to the new recipes on the index 
-page. Also, consider putting all the links in an 
-unordered list so they aren’t all on one line.
-
-Rinse and Repeat
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Credits
+chris smith @blogfire for slider card codepen
+auntie annie, I am chamorro so I have to show love to chamorro food
 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/odin-recipes/recipes/recipes-styles.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Nobile&display=swap" rel="stylesheet">
+    <title>Laiehu's Odin Recipes - Pancit</title>
+</head>
+<body>
+    <header>
+        <h1 id="titleText">Champuladu</h1>
+        <div class="container">
+            <ul class="breadcrumb">
+                <li class="breadcrumb__item breadcrumb__item-firstChild">
+                <span class="breadcrumb__inner">
+                    <span class="breadcrumb__title"><a href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/odin-recipes/index.html">Recipes</a></span>
+                </span>
+                </li>    
+                <li class="breadcrumb__item breadcrumb__item-firstChild">
+                    <span class="breadcrumb__inner">
+                        <span class="breadcrumb__title"><a href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/odin-recipes/recipes/stir_fry.html">Champuladu</a></span>
+                    </span>
+                </li>    
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="wrap animate pop pancit">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Champuladu</h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">My favorite <em>noodle</em> dish!</p>
+                </div>
+                <div class="image-content animate slide delay-5" id="champurrado"></div>
+                        <div class="dots animate">
+                            <div class="dot animate slide-up delay-6"></div>
+                            <div class="dot animate slide-up delay-7"></div>
+                            <div class="dot animate slide-up delay-8"></div>
+                        </div>
+            </div>
+                <div class="text">
+                    <p>Prep Time: <em>5mins</em>  Cook Time: <em>45mins</em>.</p>
+                    <p>It’s a porridge of sorts, only made with rice, evaporated milk and CHOCOLATE!  I think that’s why I love it so much — who doesn’t love chocolate? Author: Annie @ Annie's Chamorro Kitchen.</p>
 
-<h1>Champurrado</h1>
+                    <p>Ingredients</p>
+                    <ul>
+                        <l1>1 cup uncooked rice, or 2 cups for a thicker “porridge”</l1>
+                        <l1>4 cups water</l1>
+                        <li>1 can evaporated milk</li>
+                        <li>1/2 cup cocoa powder</li>
+                        <li>1/2 cup sugar</li>
+                    </ul>
+                    <p></p>
+                    <p>Instructions</p>
+                    <ol>
+                        <li>Wash the rice and place in a medium sized pot. Add water and cook over medium high heat. Keep the pot lit on until the rice begins to boil.</li>
+                        <li>Once the rice comes to a boil, reduce the heat to mediumlow; add cocoa powder, sugar, and milk.</li>
+                        <li>Whisk to combine all the ingredients. Continue to cook at a low simmer over medium-low heat for approximately 30 more minutes. The mixture should thicken considerably during this time. If it’s too thick for your liking, add more milk then adjust the sugar to taste. Serve warm and enjoy!</li>
+                    </ol>
+                </div>
+        </div>
+    </main>
+    <footer>
 
-<img id="Photo" src="_paste_link_here_" alt="photo of champurrado">
-        
-<section>
-    <p>Write the experience and description here</p>
-</section>
-
-<h3 id="ingredients">Ingredients</h3>
-<ul>
-<li>List</li>
-<li>Champurrado</li>
-<li>Recipe</li>
-<li>Ingredients</li>
-<li>Here!</li>
-</ul>
-
-<h3 id="steps">Steps</h3>
-<ol>
-<li>List</li>
-<li>Champurrado</li>
-<li>Recipe</li>
-<li>Steps</li>
-<li>Here!</li>
-</ol>
-
+    </footer>
+</body>
+<script src="laiehuLearning/odin-recipes/script.js"> </script>
+</html>

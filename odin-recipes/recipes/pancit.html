@@ -1,74 +1,91 @@
-<!--Odin-Proj-Instr-Iteration 2: Recipe Page--------------
-    
-Create a new directory within the odin-recipes
- directory and name it recipes.
-
-Create a new HTML file within the recipes directory 
-and name it after the recipe it will contain. 
-For example lasagna.html. You can use the name of your 
-favorite dish or, if you need some inspiration, you 
-can find a recipe to use here. 
-
-For now, just include an h1 heading with the 
-recipe’s name as its content.
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Credits
+chris smith @blogfire for slider card codepen
+auntie annie, I am chamorro so I have to show love to chamorro food
 -->
-<h1>Pancit</h1>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/odin-recipes/recipes/recipes-styles.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Nobile&display=swap" rel="stylesheet">
+    <title>Laiehu's Odin Recipes - Pancit</title>
+</head>
+<body>
+    <header> 
+        <h1 id="titleText">Pancit</h1>
+        <div class="container">
+            <ul class="breadcrumb">
+                <li class="breadcrumb__item breadcrumb__item-firstChild">
+                <span class="breadcrumb__inner">
+                    <span class="breadcrumb__title"><a href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/odin-recipes/index.html">Recipes</a></span>
+                </span>
+                </li>    
+                <li class="breadcrumb__item breadcrumb__item-firstChild">
+                    <span class="breadcrumb__inner">
+                        <span class="breadcrumb__title"><a href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/odin-recipes/recipes/pancit.html">Pancit</a></span>
+                    </span>
+                </li>    
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="wrap animate pop pancit">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Pancit</h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">My favorite <em>noodle</em> dish!</p>
+                </div>
+                <div class="image-content animate slide delay-5" id="pancit"></div>
+                        <div class="dots animate">
+                            <div class="dot animate slide-up delay-6"></div>
+                            <div class="dot animate slide-up delay-7"></div>
+                            <div class="dot animate slide-up delay-8"></div>
+                        </div>
+            </div>
+                <div class="text">
+                    <p>Prep Time: <em>20mins</em>  Cook Time: <em>15mins</em>.</p>
+                    <p id="description">Rice noodles cooked with fresh vegetables, savory chicken and Chinese sausage.
+                        Author: Annie @ Annie's Chamorro Kitchen.</p>
 
-<!-------------how to understand this-------------
-----------Iteration 3: Recipe Page Content--------
---laiehu-notes------------------------------------
---------------------------------------------------
-After all of the typical setup, creating the dir's 
-odin-recipes > recipes, and creating odin-recipes/index.html 
-and odin-recipes/recipes/pancit.html
-The recipe page (-/pancit.html) should have the following content:
----**-----**----**----**----**----**----**-----**-
-I. An image of the finished dish under the h1 heading 
-that you added earlier. You can find images of the 
-dish on Google or the recipe site we linked to earlier.
----**-----**----**----**----**----**----**-----**-
-II. Under the image, it should have an appropriately 
-sized “Description” heading followed by a paragraph 
-or two describing the recipe.
----**-----**----**----**----**----**----**-----**-
-III. Under the description, add an “Ingredients” heading 
-followed by an unordered list of the ingredients 
-needed for the recipe.
----**-----**----**----**----**----**----**-----**-
-IV. Finally, under the ingredients list, add a “Steps” 
-heading followed by an ordered list of the steps 
-needed for making the dish.
----**-----**----**----**----**----**----**-----**-
-Iteration 3: my process
-    i. looking at my previous tribut page project for hints 
-    on how to structure the beginning of this recipe page
-    googling img for pancit 
--->    
-<img id="Photo" src="_paste_link_here_" alt="photo of Pancit">
-        
-<!--ii. write down my experience with pancit -->
-<section>
-    <p>Write the experience and description here</p>
-</section>
+                    <p>Ingredients</p>
+                    <ul>
+                        <li>1 bag (16-oz) dried Bihon rice noodles (or rice sticks)</li>
+                        <li>2 chicken breasts, thinly sliced into 2 inch pieces    </li>
+                        <li>1 tablespoon chopped garlic                            </li>
+                        <li>1 teaspoon black pepper                                </li>
+                        <li>4 Chinese sausages (the kind that's cured), thinly sliced</li>
+                        <li>¾ cup soy sauce                                        </li>
+                        <li>½ large onion, sliced                                  </li>
+                        <li>1½ cups carrots, cut into matchsticks                  </li>
+                        <li>1 green bell pepper, sliced                            </li>
+                        <li>1 cup thinly sliced celery                             </li>
+                        <li>½ small head cabbage, cut into 2 inch pieces           </li>
+                        <li>Lime wedges                                            </li>
+                    </ul>
+                    <p></p>
+                    <p>Instructions</p>
+                    <ol>
+                        <li>Soak the rice noodles in a bowl of hot water for 15 minutes. Drain the water once the noodles become pliable. Cut the noodles in half with a pair of kitchen shears.</li>
+                        <li>Saute the chicken, garlic and black pepper in large pot or wok; cook until the chicken is no longer pink.</li>
+                        <li>Add the soy sauce and Chinese sausage to the wok. Cook for a couple of minutes then remove the meat from the wok, leaving the liquid in the wok.</li>
+                        <li>Add the onions, carrots, bell pepper and celery to the wok. Cook the vegetables for a couple of minutes.</li>
+                        <li>Add the cabbage; cook until the cabbage wilts slightly.</li>
+                        <li>Remove half of the vegetable mixture from the pot. Add half of the meat mixture back to the wok, along with half of the noodles. Stir to combine.</li>
+                        <li>Add the remaining vegetables, meat and noodles to the work. Stir once more to combine. Cook for a couple of minutes then remove from the heat.</li>
+                        <li>Taste and adjust the seasonings to your liking, adding more soy sauce or salt if required.</li>
+                        <li>Garnish with lime wedges, serve and ENJOY!</li>
+                    </ol>
+                </div>
+        </div>
+    </main>
+    <footer>
 
-<!--iii.--> 
-<h3 id="ingredients">Ingredients</h3>
-<ul>
-<li>List</li>
-<li>Pancit</li>
-<li>Recipe</li>
-<li>Ingredients</li>
-<li>Here!</li>
-</ul>
-
-<!--iv.-->
-<h3 id="steps">Steps</h3>
-<ol>
-<li>List</li>
-<li>Pancit</li>
-<li>Recipe</li>
-<li>Steps</li>
-<li>Here!</li>
-</ol>
-
+    </footer>
+</body>
+<script src="laiehuLearning/odin-recipes/script.js"> </script>
+</html>
