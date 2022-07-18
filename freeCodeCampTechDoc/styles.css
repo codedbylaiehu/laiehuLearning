@@ -12,8 +12,35 @@ body {
 
 h1 {
   position: fixed;
-  top: 0;
-  right: 10px;
+  top:0;
+  right: 2%;
+}
+
+.navContainer {
+  display: inline-block;
+  position: fixed;
+  height: 40%;
+  top:40%;
+  left: 0%;
+  text-decoration: none;
+  background-color: blue;
+  color: #F3F3F3;
+  padding-right: 1%;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav header ol li a {
+  text-decoration: none;
+  color: #F3F3F3;
+}
+
+nav header ol li a h2:hover {
+  color: blue;
+  background-color: #F3F3F3;
+  z-index: 5;
 }
 
 #main-doc {
@@ -23,80 +50,95 @@ h1 {
   top: 0;
   right: 10px;
   margin: 63px auto;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .main-section {
   display: grid;
-  height: 100%;
+  height: fit-content;
   grid-template-columns: 1fr 3fr;
-  overflow-y: scroll;
-}
-
-#one{
-    z-index: 1;
-}
-
-#two {
-    z-index: 2;
-}
-
-#three {
-    z-index: 3;
+  overflow: visible;
 }
 
 .main-section-title {
-  height: 90%;
+  height: fit-content;
   font-size: 2.5vw;
   font-weight: 600;
   position: sticky;
   top: 0;
   text-align: left;
-  overflow-y: hidden;
+  overflow: auto;
   background: #F3F3F3;
 }
 
 .main-section-content {
-  height: 100%;
+  height: fit-content;
   border-top: 2px solid rgb(0, 0, 0);
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 7px;
   padding: 15px 0;
-}
-
-.sub-section-title {
-  height: 90%;
-  position: sticky;
-  top: 0;
-  text-align: center;
-  font-weight: 600;
-  background: #F3F3F3;
+  overflow: visible;
 }
 
 .sub-section-content {
+  height: 100%;
   line-height: 23px;
-  
+  overflow: visible;
+}
+
+.sub-section-title {
+  height: 100%;
+  position: sticky;
+  top: 0;
+  text-align: left;
+  font-weight: 600;
+  background: #F3F3F3;
+  overflow: auto;
+}
+
+#one{
+  z-index: 1;
+}
+
+#two {
+  z-index: 2;
+}
+
+#three {
+  z-index: 3;
+}
+
+span.sub-title-small {
+  text-size-adjust: +10%;
 }
 
 kbd {
-    background-color: #aaaaaa;
+    background-color: #aeaeae;
 }
 
-@media (max-width: 600px) {
-  .episode__content {
+@media (max-width: 960px) {
+  #main-doc {
+    width: 80%;
+  }
+  .main-section-content {
     grid-template-columns: 1fr;
   }
-  .container {
-    width: 75%;
+  nav {
+    display: block;
+    position: fixed;
+    top:0%;
+    left: 50%;
+    align-items: center;
+
+  }
+  p, span, .sub-section-content ul {
+    background-color: #F3F3F3;
   }
 }
 
 @media (max-width: 576px) {
-  .episode__content .story {
+  .main-section-content {
     font-size: 15px;
-  }
-  .container {
-    width: 77%;
   }
 }

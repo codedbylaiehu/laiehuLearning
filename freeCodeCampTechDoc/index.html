@@ -4,6 +4,7 @@
 
     <!--
         <link rel="stylesheet" type="text/css" href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/freeCodeCampTechDoc/styles.css">
+
         
     -->
 
@@ -18,22 +19,26 @@
     <title>Ableton Technical Document Sample</title>
 </head>
 <body>
-    <header>
-        <h1>Ableton Technical Documentation</h1>
-        <div class="navContainer">
-            <ul>
-                <li>1. Welcome to Live</li>
-                <li>2. First Steps</li>
-                <li>3. Authorizing Live</li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-    </header>
-    <div id="main-doc">
-
-        <article class="main-section">
-            <div id="one" class="main-section-title">1. Welcome to Live</div>
+    <nav id="navbar" class="navContainer">
+        <header>
+            <ol>
+                <li><a href="#welcome_to_live" class="nav-link" ><h2>1. Welcome to Live</h2></a></li>
+                <li><a href="#first_steps" class="nav-link" ><h2>2. First Steps</h2></a></li>
+                <li><a href="#authorizing_live" class="nav-link" ><h2>3. Authorizing Live</h2></a></li>
+                <li><a href="#live_concepts" class="nav-link" ><h2>4. Live Concepts</h2></a></li>
+                <li><a href="#managing_files_and_sets" class="nav-link" ><h2>5. Managing Files and Sets</h2></a></li>
+            </ol>
+        </header>
+    </nav>   
+    <h1>
+        Ableton Manual
+    </h1>
+     
+    <main id="main-doc">
+        <section id="welcome_to_live" class="main-section">
+            <header class="main-section-title">
+                1. Welcome to Live
+            </header>
             <div class="main-section-content">
 
                 <div class="sub-section-title">1.1 The Ableton Team Says: Thank You</div>
@@ -41,7 +46,7 @@
                     <p>Live is the result of musicians wanting a better way to create, produce and perform music using a computer. A great deal of effort has been put into making Live easy and fun to use, yet at the same time capable of helping you create music with unlimited depth and sophistication. This effort continues even as you read these lines... in fact, a new, improved Live version might already be available for download! Please check your ableton.com account now https://www.ableton.com/account, or choose the Check for Updates command from the Help menu.</p>
                     <p>We hope you enjoy using Live and that it enhances your creative process.</p> 
                     <p>Your Ableton Team.</p>
-                  
+                    
                 </div>
 
                 <div class="sub-section-title">1.2 Whats New in Live 11</div>
@@ -49,8 +54,8 @@
                     <span class="sub-title-small">1.2.1 Arrangement View Improvements</span>
                     <p>A new Create Crossfades On Clip Edges command creates four-millisecond crossfades on clip edges. The command is available in the Create menu, and the context menu of Arrangement clips, or via the <kbd>CTRL</kbd>-<kbd>ALT</kbd>-<kbd>F</kbd>(Win) / <kbd>CMD</kbd>-<kbd>ALT</kbd>-<kbd>F</kbd>(Mac) keyboard shortcut.</p>
                     <p>It is possible to change the selection of automation and take lane headers using the up and down arrow keys. The lane header selection can also be extended using <kbd>Shift</kbd> and the up and down arrow keys.</p>
-                    <p>You can move automation lanes and take lanes using <kbd>CTRL</kbd>(Win) / <kbd>CMD</kbd>(Mac) and the up and down arrow keys.</p>
-                    <p>Selected automation lanes or take lanes can be resized vertically by pressing <kbd>ALT</kbd>-<kbd>+</kbd> or <kbd>ALT</kbd>-<kbd>-</kbd>, or by pressing <kbd>ALT</kbd> while using the mousewheel/pinch gesture.</p>
+                    <p>You can move automation lanes and take lanes using <code>CTRL</code>(Win) / <code>CMD</code>(Mac) and the up and down arrow keys.</p>
+                    <p>Selected automation lanes or take lanes can be resized vertically by pressing <code>ALT</code>-<code>+</code> or <code>ALT</code>-<kbd>-</kbd>, or by pressing <kbd>ALT</kbd> while using the mousewheel/pinch gesture.</p>
                     <p>When using the Zoom to Time Selection command in the Arrangement, Live now only zooms horizontally at first. When using the command a second time (without changing the time selection), Live then zooms vertically as well. Upon using the command a third time, the Arrangement returns to the first vertical zoom state.</p>
                     <p>You can use the left arrow key to navigate from an automation lane or take lane to the main track, this will fold the lanes as well. You can also use the left arrow key to navigate from tracks in a group to the main Group Track.</p>
                     <p>Selected tracks and automation lanes can be folded/unfolded using the left and right arrow keys.</p>
@@ -72,10 +77,13 @@
                     <p>In Session View, new captured clips now use the Adaptive Grid: Narrow setting instead of Fixed Grid: 1/16.</p>
                 
                 </div>
-
             </div>
+        </section>
 
-            <div id="two" class="main-section-title">2. First Steps</div>
+        <section id="first_steps" class="main-section">
+            <header class="main-section-title">
+                2. First Steps
+            </header>
             <div class="main-section-content">
 
                 <div class="sub-section-title">2.1 Learn About Live</div>
@@ -86,22 +94,22 @@
                     <span class="sub-title-small">2.1.1 Using the Info View and Index</span>
                     <p>Live’s Info View tells you the name and function of whatever you place the mouse over. For certain items, you can create your own text and it will appear in this window.</p>
                     <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=320" data-srcset="
-  
+
                         https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=768 768w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=847 847w
-                      
-                      " sizes="(min-width: 100em) 50em, (min-width: 80em) 50vw, (min-width: 64em) 46vw, 83vw" srcset="
-                      
+                        
+                        " sizes="(min-width: 100em) 50em, (min-width: 80em) 50vw, (min-width: 64em) 46vw, 83vw" srcset="
+                        
                         https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=768 768w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=847 847w
-                      
-                      " src="https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=320">
+                        
+                        " src="https://ableton-production.imgix.net/manual/en/InfoView.png?auto=compress%2Cformat&amp;w=320">
                         <figcaption>The Info View and its Show/Hide Button.</figcaption>
                     </figure>
                     <p>If you require more information on a specific user interface element or topic, please consult this reference manual. The index, found at the end of the manual, contains the names of all user interface elements and will lead you to the relevant section.</p>
@@ -114,12 +122,8 @@
                     <p>Lives Preferences window is where you can find various settings that determine how Live looks, behaves and interfaces with the outside world. This window is accessed from the Preferences command, which in Windows is available in the Options menu and in macOS is available in the Live menu. Preferences can also be accessed with the <kbd>CTRL</kbd>-<kbd>,</kbd>(Win) / <kbd>CMD</kbd>-<kbd>,</kbd>(Mac) shortcut.</p>
                     <p>Lives Preferences are distributed over several tabs:</p>
                     <ul>
-                        <li>
-                            In the Look/Feel tab, you can modify various settings, including the language used for text display and the color scheme, or “Theme,“ for the Live user interface. This is also where you can adjust the size of objects displayed on the screen: the Zoom Display slider allows you to zoom Lives screen to any percentage between 50% and 200% of the standard interface size.
-                        </li>
-                        <li>
-                            The Audio Preferences are used to set up Lives audio connections with the outside world via an audio interface. Please take the time to follow the programs built-in “Setting up Audio I/O“ lesson, which will walk you through all the steps required to set up and optimize the settings for any given system. To access the lesson, use the Help View command from the Help menu.
-                        </li>
+                        <li>In the Look/Feel tab, you can modify various settings, including the language used for text display and the color scheme, or “Theme,“ for the Live user interface. This is also where you can adjust the size of objects displayed on the screen: the Zoom Display slider allows you to zoom Lives screen to any percentage between 50% and 200% of the standard interface size.</li>
+                        <li>The Audio Preferences are used to set up Lives audio connections with the outside world via an audio interface. Please take the time to follow the programs built-in “Setting up Audio I/O“ lesson, which will walk you through all the steps required to set up and optimize the settings for any given system. To access the lesson, use the Help View command from the Help menu.</li>
                         <li>The Link/Tempo/MIDI Preferences are used to help Live recognize external devices for three separate and distinct purposes:
                             <ul>
                                 <li>
@@ -157,82 +161,86 @@
                     <p>Most of your work in Live happens in the main Live screen. This screen consists of a number of views, and each view manages a specific aspect of your <em>Live Set</em>, which is the type of document that you create and work on in Live. If you have multiple monitors (or even one very large monitor), you can open a second window to display all of Lives views at the same time.</p>
                     <p>Each one of the <em>selector buttons</em> at the screen borders calls up a specific view; clicking this one, for instance, opens and closes Lives browser:</p>
                     <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/BrowserChooser.png?auto=compress%2Cformat&amp;w=320" data-srcset="
-  
+
                         https://ableton-production.imgix.net/manual/en/BrowserChooser.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/BrowserChooser.png?auto=compress%2Cformat&amp;w=506 506w
-                      
-                      " sizes="(min-width: 69em) 31.625em, (min-width: 64em) 46vw, (min-width: 38em) 31.625em, 83vw" srcset="
-                      
+                        
+                        " sizes="(min-width: 69em) 31.625em, (min-width: 64em) 46vw, (min-width: 38em) 31.625em, 83vw" srcset="
+                        
                         https://ableton-production.imgix.net/manual/en/BrowserChooser.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/BrowserChooser.png?auto=compress%2Cformat&amp;w=506 506w
-                      
-                      " src="https://ableton-production.imgix.net/manual/en/BrowserChooser.png?auto=compress%2Cformat&amp;w=320">
-                      <figcaption>
+                        
+                        " src="https://ableton-production.imgix.net/manual/en/BrowserChooser.png?auto=compress%2Cformat&amp;w=320">
+                        <figcaption>
                         The Browser Selector.
-                      </figcaption>
+                        </figcaption>
                     </figure>
                     <p>You can run Live in Full Screen Mode by selecting the Full Screen command from the View menu. Full Screen Mode can also be toggled by pressing <kbd>F11</kbd>(Win) / <kbd>CTRL</kbd>-<kbd>CMD</kbd>-<kbd>F</kbd>(Mac). On Windows and versions of OS X prior to 10.9, you can leave Full Screen mode by clicking a button that appears in the lower right corner of the screen.</p>
                     <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/FullScreenButtonWindows.png?auto=compress%2Cformat&amp;w=226" data-srcset="
-  
+
                         https://ableton-production.imgix.net/manual/en/FullScreenButtonWindows.png?auto=compress%2Cformat&amp;w=226 226w
-                      
-                      " sizes="(min-width: 17em) 14.125em, 83vw" srcset="
-                      
+                        
+                        " sizes="(min-width: 17em) 14.125em, 83vw" srcset="
+                        
                         https://ableton-production.imgix.net/manual/en/FullScreenButtonWindows.png?auto=compress%2Cformat&amp;w=226 226w
-                      
-                      " src="https://ableton-production.imgix.net/manual/en/FullScreenButtonWindows.png?auto=compress%2Cformat&amp;w=226">
-                      <figcaption>
+                        
+                        " src="https://ableton-production.imgix.net/manual/en/FullScreenButtonWindows.png?auto=compress%2Cformat&amp;w=226">
+                        <figcaption>
                         Turn Full Screen Off (Windows and OS X 10.8 or older).
-                      </figcaption>
+                        </figcaption>
                     </figure>
                     <p>When using OS X version 10.9 or higher, Live uses the operating systems native full screen controls. You can turn Full Screen Mode on by clicking the arrows in the top right corner.</p>
                     <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/FullScreenButtonOSX.png?auto=compress%2Cformat&amp;w=320" data-srcset="
-  
+
                         https://ableton-production.imgix.net/manual/en/FullScreenButtonOSX.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/FullScreenButtonOSX.png?auto=compress%2Cformat&amp;w=468 468w
-                      
-                      " sizes="(min-width: 35em) 29.25em, 83vw" srcset="
-                      
+                        
+                        " sizes="(min-width: 35em) 29.25em, 83vw" srcset="
+                        
                         https://ableton-production.imgix.net/manual/en/FullScreenButtonOSX.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/FullScreenButtonOSX.png?auto=compress%2Cformat&amp;w=468 468w
-                      
-                      " src="https://ableton-production.imgix.net/manual/en/FullScreenButtonOSX.png?auto=compress%2Cformat&amp;w=320">
-                      <figcaption>
+                        
+                        " src="https://ableton-production.imgix.net/manual/en/FullScreenButtonOSX.png?auto=compress%2Cformat&amp;w=320">
+                        <figcaption>
                         Turn Full Screen On (OS X 10.9 or higher).
-                      </figcaption>
+                        </figcaption>
                     </figure>
                     <p>When in Full Screen Mode on OS X version 10.9 or higher, Lives menus will appear when moving your mouse pointer to the top of the screen. You can turn Full Screen Mode off by clicking the arrows on the right side of the menu bar.</p>
                     <p>Enabling the Second Window option via <kbd>CTRL</kbd>-<kbd>Shift</kbd>-<kbd>W</kbd>(Win) / <kbd>CMD</kbd>-<kbd>Shift</kbd>-<kbd>W</kbd>(Mac) or in the View menu opens a second window that will display an alternate collection of Lives views.</p>
                     <p>If Lives browser is open, you can adjust the main windows horizontal split by dragging.</p>
                     <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/BrowserSplit.png?auto=compress%2Cformat&amp;w=320" data-srcset="
-  
+
                         https://ableton-production.imgix.net/manual/en/BrowserSplit.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/BrowserSplit.png?auto=compress%2Cformat&amp;w=710 710w
-                      
-                      " sizes="(min-width: 88.75em) 44.375em, (min-width: 80em) 50vw, (min-width: 64em) 46vw, (min-width: 53em) 44.375em, 83vw" srcset="
-                      
+                        
+                        " sizes="(min-width: 88.75em) 44.375em, (min-width: 80em) 50vw, (min-width: 64em) 46vw, (min-width: 53em) 44.375em, 83vw" srcset="
+                        
                         https://ableton-production.imgix.net/manual/en/BrowserSplit.png?auto=compress%2Cformat&amp;w=320 320w,
-                      
+                        
                         https://ableton-production.imgix.net/manual/en/BrowserSplit.png?auto=compress%2Cformat&amp;w=710 710w
-                      
-                      " src="https://ableton-production.imgix.net/manual/en/BrowserSplit.png?auto=compress%2Cformat&amp;w=320">
-                      <figcaption>
+                        
+                        " src="https://ableton-production.imgix.net/manual/en/BrowserSplit.png?auto=compress%2Cformat&amp;w=320">
+                        <figcaption>
                         Adjusting the Main Window Split.
-                      </figcaption>
+                        </figcaption>
                     </figure>
 
                 </div>
 
             </div>
+        </section>
 
-            <div id="three" class="main-section-title">3. Authorizing Live</div>
+        <section id="authorizing_live" class="main-section">
+            <header class="main-section-title">
+                3. Authorizing Live
+            </header>
             <div class="main-section-content">
-                <div class="sub-section-title"> </div>
+                <div id="sectionThree" class="sub-section-title"> </div>
 
                 <div class="sub-section-content">
                     <p>Live is protected against illegal use by a copy protection scheme. This scheme has been designed to meet the highest security standards while avoiding hassles for our customers. If you find this procedure to be an inconvenience, please understand that the copy protection secures your investment: It allows Ableton to provide you with support and to continue developing Live.</p>
@@ -243,7 +251,7 @@
 
                 <div class="sub-section-title">3.1 Copy Protection FAQs</div>
 
-                <div id ="sectoinThree" class="sub-section-content">
+                <div class="sub-section-content">
                     <span class="sub-title-small">3.1.1 Can I Use Live or Other Ableton Products Without a Serial Number?</span> 
                     
                     <p>If you do not (yet) own Live or its add-on products, you can still try them out, but saving and exporting will be disabled.</p>
@@ -262,10 +270,137 @@
                     
                 </div>
             </div>
-        </article>
+        </section>
+
+        <section id="live_concepts" class="main-section">
+            <header class="main-section-title">
+                4. Live Concepts
+            </header>
+            <div class="main-section-content">
+                <div id="sectionFour" class="sub-section-title"> </div>
+                <div class="sub-section-content">
+                    <p>This chapter introduces the essential concepts of Live. We advise you to read this chapter early in your Live career, as a solid understanding of the programs basic principles will help you fully exploit Lives potential for your music-making.</p>
+                </div>    
+
+                <div class="sub-section-title">4.1 The Browser</div>
+                <div class="sub-section-content">
+                    <p>Lives browser (<a href="/en/manual/managing-files-and-sets/#5-1-working-with-the-browser">see 5.1</a>) is the place where you interact with your library of musical assets: the core library of sounds that are installed with the program, any additional sounds youve installed via Ableton <em>Packs</em>, presets and samples youve saved, your Ableton and third-party devices, and any folders that youve added manually.</p>
+                    <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/LiveBrowser.png?auto=compress%2Cformat&amp;w=320" data-srcset="
+  
+                        https://ableton-production.imgix.net/manual/en/LiveBrowser.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/LiveBrowser.png?auto=compress%2Cformat&amp;w=509 509w
+                      
+                      " sizes="(min-width: 69em) 31.8125em, (min-width: 64em) 46vw, (min-width: 38em) 31.8125em, 83vw" srcset="
+                      
+                        https://ableton-production.imgix.net/manual/en/LiveBrowser.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/LiveBrowser.png?auto=compress%2Cformat&amp;w=509 509w
+                      
+                      " src="https://ableton-production.imgix.net/manual/en/LiveBrowser.png?auto=compress%2Cformat&amp;w=320"><figcaption>
+                        Lives Browser.
+                      </figcaption>
+                    </figure>
+
+                </div>
+                <div class="sub-section-title">4.2 Live Sets</div>
+                <div class="sub-section-content">
+                    <p>he type of document that you create and work on in Live is called a Live Set (<a href="/en/manual/managing-files-and-sets/#5-5-live-sets">see 5.5</a>). Live Sets reside in a Live Project — a folder that collects related materials — and can be opened either through the File menus Open command or via Lives browser.</p>
+
+                    <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/LiveSetInBrowser.png?auto=compress%2Cformat&amp;w=320" data-srcset="
+  
+                        https://ableton-production.imgix.net/manual/en/LiveSetInBrowser.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/LiveSetInBrowser.png?auto=compress%2Cformat&amp;w=703 703w
+                      
+                      " sizes="(min-width: 87.875em) 43.9375em, (min-width: 80em) 50vw, (min-width: 64em) 46vw, (min-width: 53em) 43.9375em, 83vw" srcset="
+                      
+                        https://ableton-production.imgix.net/manual/en/LiveSetInBrowser.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/LiveSetInBrowser.png?auto=compress%2Cformat&amp;w=703 703w
+                      
+                      " src="https://ableton-production.imgix.net/manual/en/LiveSetInBrowser.png?auto=compress%2Cformat&amp;w=320"><figcaption>
+                        A Live Set in the Browser.
+                      </figcaption>
+                    </figure>
+                </div>
+
+                <div class="sub-section-title">4.3 Arrangement and Session</div>  
+                <div class="sub-section-content"> 
+                    <p>The basic musical building blocks of Live are called <em>clips</em>. A clip is a piece of musical material: a melody, a drum pattern, a bassline or a complete song. Live allows you to record and alter clips, and to create larger musical structures from them: songs, scores, remixes, DJ sets or stage shows.</p>
+                    <p>A Live Set consists of two environments that can hold clips: The <em>Arrangement</em> is a layout of clips along a musical timeline; the <em>Session</em> is a real-time-oriented “launching base” for clips. Every Session clip has its own play button that allows launching the clip at any time and in any order. Each clips behavior upon launch can be precisely specified through a number of settings (<a href="/en/manual/launching-clips/">see Chapter 14</a>).</p>
+                    <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=320" data-srcset="
+  
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=768 768w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=1024 1024w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=1280 1280w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=1348 1348w
+                      
+                      " sizes="(min-width: 100em) 50em, (min-width: 80em) 50vw, (min-width: 64em) 46vw, 83vw" srcset="
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=768 768w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=1024 1024w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=1280 1280w,
+                      
+                        https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=1348 1348w
+                      
+                      " src="https://ableton-production.imgix.net/manual/en/ClipsInSessionAndArrangement.png?auto=compress%2Cformat&amp;w=320"><figcaption>
+                        Clips in the Session View (Left) and in the Arrangement View (Right).
+                      </figcaption>
+                    </figure>
+                  
+                </div>
+            </div>
+        </section>
+
+        <section id="managing_files_and_sets" class="main-section">
+            <header class="main-section-title">
+                5. Managing Files and Sets
+            </header>
+            <div class="main-section-content">
+                <div id ="sectoinThree" class="sub-section-title"> </div>
+                <div class="sub-section-content">
+                    <p>Various types of files are used in making music with Live, from those containing MIDI (<a href="/en/manual/managing-files-and-sets/#5-3-midi-files">see 5.3</a>) and audio (<a href="/en/manual/managing-files-and-sets/#5-2-sample-files">see 5.2</a>), to more program-specific files such as Live Clips (<a href="/en/manual/managing-files-and-sets/#5-4-live-clips">see 5.4</a>) and Live Sets (<a href="/en/manual/managing-files-and-sets/#5-5-live-sets">see 5.5</a>). This chapter will explain everything you need to know about working with each of these file types in Live. However, we should first take a look at Lives browser, through which most files arrive in the program.</p>
+                </div>    
+
+                <div class="sub-section-title">5.1 Working with the Browser</div>
+                <div class="sub-section-content">
+                    <p>Lives browser is the place where you interact with your library of musical assets: the core library of sounds that are installed with the program, any additional sounds youve installed via Ableton <em>Packs</em>, presets and samples youve saved, your Ableton and third-party devices, and any folder on your hard drive that contains samples, tracks, etc.</p>
+                    <figure class="image-container"><img alt="" class=" lazyloaded" data-src="https://ableton-production.imgix.net/manual/en/BrowserComplete.png?auto=compress%2Cformat&amp;w=320" data-srcset="
+  
+                        https://ableton-production.imgix.net/manual/en/BrowserComplete.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/BrowserComplete.png?auto=compress%2Cformat&amp;w=740 740w
+                      
+                      " sizes="(min-width: 92.5em) 46.25em, (min-width: 80em) 50vw, (min-width: 64em) 46vw, (min-width: 56em) 46.25em, 83vw" srcset="
+                      
+                        https://ableton-production.imgix.net/manual/en/BrowserComplete.png?auto=compress%2Cformat&amp;w=320 320w,
+                      
+                        https://ableton-production.imgix.net/manual/en/BrowserComplete.png?auto=compress%2Cformat&amp;w=740 740w
+                      
+                      " src="https://ableton-production.imgix.net/manual/en/BrowserComplete.png?auto=compress%2Cformat&amp;w=320"><figcaption>
+                        The Browser.
+                      </figcaption>
+                    </figure>
+                    <p>The browser display is divided into left and right sections, called the <em>sidebar</em> and the <em>content pane</em> respectively. To resize the sections, drag the divider line horizontally.</p>
+                    
+                    <span class="sub-title-small">5.1.1 Understanding the Browser Hierarchy</span> 
+                    <p>Working in the browser involves choosing one of the <em>labels</em> from the Collections, <em>Categories</em> or <em>Places</em> sections in the sidebar, and then selecting from the items that appear in the content pane.</p>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
-
     </footer>
 </body>
 </html>
