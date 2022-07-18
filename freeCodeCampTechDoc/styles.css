@@ -117,7 +117,7 @@ kbd {
     background-color: #aeaeae;
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   #main-doc {
     width: 80%;
   }
@@ -137,8 +137,12 @@ kbd {
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .main-section-content {
     font-size: 15px;
   }
+}
+
+@media only screen and (max-device-width: 480px) {
+  
 }
