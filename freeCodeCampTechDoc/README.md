@@ -25,3 +25,51 @@ User Stories:
 
 Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
 
+$$$$$$Tech Doc Wireframe$$$$$$
+
+description: "Sticky-topic" five-page Ableton Technical Documentation Clone
+
+Like my blog, I intend to make the page a 
+    single-page tech doc that 
+    makes use of the sticky property to display what portion of the doc you're in and
+    includes a fixed navbar
+    
+###_#main-doc##################################################################################
+#     fixed_navbar            #                        page-title                             #
+#                             #                                                               #
+#......highlights current.....#########################_main section div_######################
+#.        section title       #                                                               #
+#.                            #                                                               #
+#.                            #                                                               #
+##############################                                                                #
+##  Sticky Subsection #/title #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+##                            #                                                               #
+###############################################################################################
+#                                                                                             #
+#                                                                                             #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+#                                                                                          #
+############################################################################################
