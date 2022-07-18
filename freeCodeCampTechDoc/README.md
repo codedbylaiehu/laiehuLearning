@@ -73,3 +73,8 @@ Like my blog, I intend to make the page a
 #                                                                                          #
 #                                                                                          #
 ############################################################################################
+
+
+FINISHING NOTES
+
+I ended on a high note accomplishing all i set out to do in this project. i wanted to use sticky elements and make an interesting layout as well as a simple html/css nav menu with section links. I also adore ableton as a DAW and loved styling the page to the specs of their page with a blue twist (see menu). all-in-all I believe I  did exceptionally well with even more readable code.
