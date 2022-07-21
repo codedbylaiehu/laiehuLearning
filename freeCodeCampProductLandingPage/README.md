@@ -28,6 +28,34 @@ Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to l
 
 #### wireframing 
 Product Ideas
-    software (Analog Obsessions plugs)
-    bag of dirt (fox farms soil)
-    cat tower (cloud one)
+    beat sales page
+
+
+
+
+    <section class="section" id="section1">
+        <iframe 
+            id="video"
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/VBbJw8BQ_I0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; 
+                autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
+    <section class="section" id="section2">
+
+    </section>
+    <section class="section" id="section3">
+        <form id="form">
+            <input id="email" type="email" placeholder="type_email@ddress.here">
+            <input id="submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">
+        </form>
+    </section>
