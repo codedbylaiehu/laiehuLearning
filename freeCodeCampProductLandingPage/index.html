@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <!--
-    <link rel="stylesheet" type="text/css" href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/freeCodeCampProductLandingPage/styles.css">
+    
 
     <link rel="stylesheet" type="text/css" href="styles.css">        
 
-            
+    <link rel="stylesheet" type="text/css" href="https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampProductLandingPage/styles.css">        
     -->
-    <link rel="stylesheet" type="text/css" href="https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampProductLandingPage/styles.css">
+    <link rel="stylesheet" type="text/css" href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/freeCodeCampProductLandingPage/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,37 @@
         </iframe>
     </section>
     <section class="section" id="section2">
-        <div style="background-color: black;">blah</div>
+        <div style="background-color: black;">
+            <h2 class="card-title">Card Title</h2>
+                <button class="accordion">What Is A Lease?</button>
+                <div class="panel">
+                    <p class="titleSingle">Leases Allow You To <em>Commercially</em> Use Instrumentals <strong>Legally.</strong> If You Purchase A Lease, You Are In Ownership Of A Segment Of Rights That Allows You To Legitimitatly Use The Instrumentals Of Choice For Commercial Purposes And Make Profit. The Producer Remains The Right And Sole Holder With Exclusive Rights To The Protected Copyright.</p>
+                </div>
+                <button class="accordion">What Is The Difference Between Having Exclusive Rights And A Lease?</button>
+                <div class="panel">
+                    <p class="titleSingle">Leases Are Normally Non-Exclusive License Agreements. Other Artists May Purchase The Same Beat As Well. An Exclusive License Makes The Instrumental <em>Exclusively</em> <strong>Yours!</strong></p>
+                </div>
+                <button class="accordion">Why Not Just Buy An Exclusive License?</button>
+                <div class="panel">
+                    <p class="titleSingle">Leases Offer A Cost-Effective Way For Indies And Label-Artists Alike To Create!</p>
+                </div>
+                <button class="accordion">What Do I Get With My Purchase?</button>
+                <div class="panel">
+                    <p class="titleSingle">You Will Be Emailed The Chosen Instrumental(s) And Any Accompanying Licenses Directly After Purchase. Formats Vary With License Agreement But Come As Standard MP3 Or WAV.</p>
+                </div>
+                <button class="accordion">What Payment Methods Do You Accept?</button>
+                <div class="panel">
+                    <p class="titleSingle">PayPal, Debit And Credit Card.</p>
+                </div>
+                <button class="accordion">Do The Vocal Tags Get Removed After Purchase?</button>
+                <div class="panel">
+                    <p class="titleSingle">All Beats Get To Include The Industry Standard Opening Tag But All Other Tags Are Removed From Purchased Instrumentals</p>
+                </div>
+                <button class="accordion">What Are Stems And Why Do I Need Them?</button>
+                <div class="panel">
+                    <p class="titleSingle">Stems Or <strong>\'Trackouts\'</strong> Are The Seperate Instrument And Effects Tracks That Comprise The Entire Instrumental. Many Artists, Producers, And Engineers <strong>Prefer</strong> Stems To 2-Tracks Because They Allow More <em>Fine-Grain Control</em> Over Elements In The Track Such As Gain Staging Or EQ.</p>
+                </div>    
+        </div>
         <div style="background-color: blue; 
                     align-self: center;
                     display: block;"><iframe id="track-player" src="https://player.beatstars.com/?storeId=131327" style="align-self: center;"></iframe></div>
@@ -57,4 +87,21 @@
         </form>
     </section>
 </body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
 </html>
