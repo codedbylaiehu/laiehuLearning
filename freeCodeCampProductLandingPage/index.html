@@ -2,13 +2,18 @@
 <html lang="en">
 <head>
     <!--
-    
+    https://drive.google.com/file/d/1uN_OwOQBZMKDrtT9rpHD5ierXEvO8NZj/view?usp=sharing
 
     <link rel="stylesheet" type="text/css" href="styles.css">        
 
     <link rel="stylesheet" type="text/css" href="https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampProductLandingPage/styles.css">        
     -->
     <link rel="stylesheet" type="text/css" href="/Users/laiehu/Programming/laiehuProgramming/laiehuLearning/freeCodeCampProductLandingPage/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Kenia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,16 +22,18 @@
 
 
 <body>
-    <header id="header">
-        <nav id="nav-bar">
-            <a class="nav-link" href="#section1">Section 1</a>
-            <a class="nav-link" href="#section2">Section 2</a>
-            <a class="nav-link" href="#section3">Section 3</a>
-        </nav>
-        <img id="header-img">
-    </header>
-
     <section class="section" id="section1">
+    <header id="header">
+        <img src="https://drive.google.com/uc?export=view&id=1uN_OwOQBZMKDrtT9rpHD5ierXEvO8NZj" id="header-img" alt="laiehu logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#section1"><i class="fa fa-home"></i> Home</a>
+            <a class="nav-link" href="#section2"><i class="fa fa-star"></i> Featured</a>
+            <a class="nav-link" href="#section3"><i class="fa fa-music"></i> Beats</a>
+        </nav>
+    </header>
+    </section>
+
+    <section class="section" id="section2">
         <iframe 
             id="video"
             width="560" 
@@ -43,9 +50,9 @@
             allowfullscreen>
         </iframe>
     </section>
-    <section class="section" id="section2">
-        <div style="background-color: black;">
-            <h2 class="card-title">Card Title</h2>
+    <section class="section" id="section3">
+        <div id="acc">
+            <h2 class="card-title">F.A.Q</h2>
                 <button class="accordion">What Is A Lease?</button>
                 <div class="panel">
                     <p class="titleSingle">Leases Allow You To <em>Commercially</em> Use Instrumentals <strong>Legally.</strong> If You Purchase A Lease, You Are In Ownership Of A Segment Of Rights That Allows You To Legitimitatly Use The Instrumentals Of Choice For Commercial Purposes And Make Profit. The Producer Remains The Right And Sole Holder With Exclusive Rights To The Protected Copyright.</p>
@@ -75,17 +82,26 @@
                     <p class="titleSingle">Stems Or <strong>\'Trackouts\'</strong> Are The Seperate Instrument And Effects Tracks That Comprise The Entire Instrumental. Many Artists, Producers, And Engineers <strong>Prefer</strong> Stems To 2-Tracks Because They Allow More <em>Fine-Grain Control</em> Over Elements In The Track Such As Gain Staging Or EQ.</p>
                 </div>    
         </div>
-        <div style="background-color: blue; 
-                    align-self: center;
-                    display: block;"><iframe id="track-player" src="https://player.beatstars.com/?storeId=131327" style="align-self: center;"></iframe></div>
-        <div style="background-color: rgb(54, 54, 109);">yah</div>
+        <div id="beat" style=" align-self: center;
+                    display: block;"><iframe id="track-player" src="https://player.beatstars.com/?storeId=131327" style="align-self: center;"></iframe>
+        </div>
+        <div id="thirdDiv">
+            <h3 id="emailCopy">
+                too timid for an all-in?
+            </h3>
+            <p id="emailCopy2">
+                if you don't feel like buying something now, consider signing up for our monthly members club. it's free and includes monthly beats and samples!
+            </p>
+            <p id="emailCopy3">
+                enter email below!
+            </p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" name="email" type="email" placeholder="type_email@ddress.here">
+                <input id="submit" type="submit">
+            </form>
+        </div>
     </section>
-    <section class="section" id="section3">
-        <form id="form">
-            <input id="email" type="email" placeholder="type_email@ddress.here">
-            <input id="submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">
-        </form>
-    </section>
+
 </body>
 <script>
     var acc = document.getElementsByClassName("accordion");

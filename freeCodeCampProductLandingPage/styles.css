@@ -12,12 +12,6 @@
     box-sizing: border-box;
   }
 
-body {
-    max-height: 100vh;
-    margin: 0;
-    background-color: var(--c1);
-}
-
 nav {
     position: fixed;
     top: 0;
@@ -27,6 +21,8 @@ nav {
     place-items: center;
     height: 64px;
     width: 100%;
+    margin: 0 auto;
+
     background-color:#fc8b8b !important;
     -webkit-box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
     -moz-box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
@@ -34,30 +30,87 @@ nav {
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
     z-index: 100;
 }
+header img#header_img {
+    display: block;
+    position: relative;
+    left: 25vw;
+    top: 10vh;
+    width: 50vw;
+    height: 55vh;
+    margin-bottom: 12vh;
+}
+
+nav a {
+    text-align: left;
+    margin-left: 5vw;
+    text-decoration: none;
+    font-family: 'Kenia', cursive;
+    font-size: 2rem;
+    color: #fff59d;
+}
 
 section {
     max-height: 100vh;
     max-width: 100vw;
     margin-bottom: 3vh;
-    border: 1px solid black;
     z-index: 10;
 }
 
-#section1 {
+#section2 {
     display: block;
 }
 
-#section2 {
-    display: grid;
-    grid-template-columns: minmax(30%, 1fr) minmax(min-content, 94rem) minmax(30%, 1fr);
-    row-gap: 3rem;
-    column-gap: 3rem;
+
+
+section div#thirdDiv {
+    margin-right: 5vw;
+    background-color: #80cbc4;
+    border-radius: 7px;
     align-items: center;
-    border: 1px solid black;
+    margin: 0 5vw 0 auto;
 }
 
-#section3 {
-    
+body section div h3#emailCopy {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 0;
+    font-family: 'Kenia';
+    color: #fff59d;
+    padding-top: 1em;
+}
+
+body section div p#emailCopy2 {
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    top: 0;
+    font-family: 'Didact Gothic';
+    line-height: 2rem;
+    color: #fff59d;
+    margin-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+body section div form input {
+    margin-left: 4em;
+    margin-bottom: 2em;
+}
+
+body section div p#emailCopy3 {
+    margin-left: 4em;
+    margin-bottom: .5em;
+    color:#eff5f4;
+}
+
+body section div#acc {
+    background-color: transparent;
+    color:#5c938e;
+    text-align: center;
+    align-self: center;
+    margin-left: 5vw;
+    font-family: 'Kenia', cursive; 
 }
 
 .panel > h3 {
@@ -74,12 +127,13 @@ section {
 
 .titleSingle {
     font-size: 4;
-    color: black;
+    color: #cfd5d4;
+    font-family: 'Didact Gothic';
 }
 
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #80cbc4;
+    color: #fff59d;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -88,18 +142,20 @@ section {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    border-radius: 7px;
 }
 
+
 .active, .accordion:hover {
-    background-color: black;
-    color: white;
+    background-color: #fc8b8b;
+    color: whitesmoke;
 }
 
 .panel {
     align-self: center;
     padding: 0 18px;
-    background-color: #bae1c4;
-    width: 97.4%;
+    background-color: #8c4f4f;
+    width: 100%;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -108,7 +164,7 @@ section {
 
 #video {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
 }
 #track-player {
@@ -116,17 +172,36 @@ section {
     width: 100%;
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 700px) {
-    section {
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
+@media screen and (min-width: 782px) {
+    body {
+        max-height: 100vh;
+        margin: 0;
+        background-color: var(--c1);
+    }    
+    #section3 {
+        display: grid;
+        grid-template-columns: minmax(30%, 1fr) minmax(min-content, 94rem) minmax(30%, 1fr);
+        row-gap: 3rem;
+        column-gap: 3rem;
+        align-items: center;
     }
-    section div{
-        display:block;
-        overflow-y: scroll;
+}
+
+@media screen and (max-width: 781px) {
+    body {
+        background-color: lightgreen;
+    }    
+    #section3 {
+        display: block;
+        align-items: center;
     }
-    #track-player {
-        height: 100vh;
-    } 
-    
+    #section3 div#acc, #beat, form input#submit {
+        margin-bottom: 2em;
+    }
+    #section3 input#submit {
+        align-self: center;
+    }    
+    header img#header_img {
+        height: 20vh;
+    }
 }
