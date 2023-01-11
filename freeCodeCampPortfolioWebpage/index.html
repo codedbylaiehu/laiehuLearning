@@ -12,34 +12,29 @@
     <!-- Link to stylesheet hosted on GitHub Pages.
         https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampPortfolioWebpage/styles.css
     -->
+    <script src="scripts.js"> 
+    </script> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Kenia&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laiehu Portfolio Webpage</title>
     <!--script to cycle through all pictures using buttons-->
-    <script src="scripts.js" defer></script>
+    
 </head>
 
 <!--body element that contains a header, a main section, and a footer.-->
 <body>
     <header id="header">
         <!--
-            header element that contains a navigation bar and image carousel with four images.
-        -->
-
-        <!--
             Navigation bar that contains a link to each section of the webpage. 
         -->
         <nav id="navbar">
-            <a class="nav-link" href="#section1"><i class="fa fa-home"></i> Home</a>
-            <a class="nav-link" href="#section2"><i class="fa fa-star"></i> Projects</a>
-            <a class="nav-link" href="#section3"><i class="fa fa-user"></i> About</a>
-            <a class="nav-link" href="#section4"><i class="fa fa-user-circle" target="_blank"></i> Github</a>
+            <a class="nav-link" href=""><i class="fa fa-home"></i> Home</a>
+            <a class="nav-link" href="#about-me"><i class="fa fa-star"></i> Projects</a>
+            <a class="nav-link" href="#section3"><i class="fa fa-user-o"></i> About</a>
+            <a class="nav-link" href="#section4"><i class="fa fa-github-alt"></i> Github</a>
             <a class="nav-link" href="#section5"><i class="fa fa-envelope"></i> Contact</a>
         </nav>
     </header>
@@ -47,25 +42,34 @@
     <!--
         Main section that contains a project showcase, a project description, and a form. -->
     <main>
-        <section aria-label="Project Showcase" id="projects">
+        <section aria-label="Project Showcase" id="welcome-section">
             <div class="carousel" data-carousel>
+                <script src="scripts.js">
+                </script>
                 <button class="carousel-button prev" data-carousel-button="prev">&#10096;</button>
                 <button class="carousel-button next" data-carousel-button="next">&#10097;</button>
-                <ul data-slides>
+                <ul data-slides id="projects">
                     <li class="slide" data-active>
-                        <img src="https://images.prismic.io/teenageengineering/d03be6b7-c09e-4c10-b286-41c40a496b47_field_backpack_front.png?auto=compress,format&w=4096&h=1" alt="Image 1">
+                        <img src="freeCodeCampPortfolioWebpage/assets/product.png" alt="Image 1">
+                        <a href="https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampProductLandingPage/" class="plink">Product Landing Page</a>
                     </li>
                     <li class="slide">
-                        <img src="https://images.prismic.io/teenageengineering/d33f3063-4358-4c19-9a88-17e7ca5c52a0_field_backpack_side.png?auto=compress,format&w=4096&h=1" alt="Image 2">
+                        <img src="freeCodeCampPortfolioWebpage/assets/techdoc.png" alt="Image 2">
+                        <a href="https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampTechDoc/" class="plink">Technical Documentation</a>
                     </li>
                     <li class="slide">
-                        <img src="https://images.prismic.io/teenageengineering/f909c77f-0639-4f7d-a755-3ec78eae2c7f_field_backpack_back.png?auto=compress,format&w=4096&h=1" alt="Image 3">
+                        <img src="freeCodeCampPortfolioWebpage/assets/recipes.png" alt="Image 3">
+                        <a href="https://codedbylaiehu.github.io/laiehuLearning/odin-recipes/" class="plink">Recipes</a>
                     </li>
                     <li class="slide">
-                        <img src="https://images.prismic.io/teenageengineering/54aba8bb-83cc-454d-80c3-b4764c60e91b_fiel_backpack_patches.png?auto=compress,format&w=4096&h=1" alt="Image 4">
+                        <img src="freeCodeCampPortfolioWebpage/assets/blog.png" alt="Image 4">
+                        <a href="https://codedbylaiehu.github.io/blog/" class="plink">Blog</a>
                     </li>
                 </ul>
             </div>
+        </section>
+        <section aria-label="About Me Page" id="about-me">
+            
         </section>
     </main>
     <footer>
