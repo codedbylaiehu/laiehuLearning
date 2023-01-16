@@ -1,0 +1,103 @@
+<!--
+    Webpage boilerplate for a portfolio webpage.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    head tag contains metadata about the webpage.
+-->
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">      
+    <!-- Link to stylesheet hosted on GitHub Pages.
+        https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampPortfolioWebpage/styles.css
+    -->
+    <script>
+    const buttons = document.querySelectorAll("[data-carousel-button]")
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const offset = button.dataset.carouselButton === "next" ? 1 : -1
+    const slides = button
+      .closest("[data-carousel]")
+      .querySelector("[data-slides]")
+
+    const activeSlide = slides.querySelector("[data-active]")
+    let newIndex = [...slides.children].indexOf(activeSlide) + offset
+    if (newIndex < 0) newIndex = slides.children.length - 1
+    if (newIndex >= slides.children.length) newIndex = 0
+
+    slides.children[newIndex].dataset.active = true
+    delete activeSlide.dataset.active
+  })
+})
+ 
+    </script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laiehu Portfolio Webpage</title>
+    <!--script to cycle through all pictures using buttons-->
+    
+</head>
+
+<!--body element that contains a header, a main section, and a footer.-->
+<body>
+    <header id="header">
+        <!--
+            Navigation bar that contains a link to each section of the webpage. 
+        -->
+        <nav id="navbar">
+            <a class="nav-link" href=""><i class="fa fa-home"></i> Home</a>
+            <a class="nav-link" href="#about-me"><i class="fa fa-star"></i> Projects</a>
+            <a class="nav-link" href="#section3"><i class="fa fa-user-o"></i> About</a>
+            <a class="nav-link" href="#section4"><i class="fa fa-github-alt"></i> Github</a>
+            <a class="nav-link" href="#section5"><i class="fa fa-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+    <!--
+        Main section that contains a project showcase, a project description, and a form. -->
+    <main>
+        <section aria-label="Project Showcase" id="welcome-section">
+            <!--div with welcome section-->
+            <div class="welcome">
+                <h1>Laiehu's Portfolio Webpage</h1>
+                <p>Hi, I'm Laiehu. I'm a software developer and this is my portfolio webpage.</p>
+            </div>
+            <!--div with carousel-->
+            <div class="carousel" data-carousel>
+                <script src="scripts.js">
+                </script>
+                <button class="carousel-button prev" data-carousel-button="prev">&#10096;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#10097;</button>
+                <ul data-slides id="projects">
+                    <li class="slide" data-active>
+                        <img src="freeCodeCampPortfolioWebpage/assets/product.png" alt="Image 1">
+                        <a href="https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampProductLandingPage/" class="plink">Product Landing Page</a>
+                    </li>
+                    <li class="slide">
+                        <img src="freeCodeCampPortfolioWebpage/assets/techdoc.png" alt="Image 2">
+                        <a href="https://codedbylaiehu.github.io/laiehuLearning/freeCodeCampTechDoc/" class="plink">Technical Documentation</a>
+                    </li>
+                    <li class="slide">
+                        <img src="freeCodeCampPortfolioWebpage/assets/recipes.png" alt="Image 3">
+                        <a href="https://codedbylaiehu.github.io/laiehuLearning/odin-recipes/" class="plink">Recipes</a>
+                    </li>
+                    <li class="slide">
+                        <img src="freeCodeCampPortfolioWebpage/assets/blog.png" alt="Image 4">
+                        <a href="https://codedbylaiehu.github.io/blog/" class="plink">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section aria-label="About Me Page" id="about-me">
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
